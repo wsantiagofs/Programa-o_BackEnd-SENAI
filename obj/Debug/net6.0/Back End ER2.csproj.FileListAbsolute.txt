@@ -1,0 +1,15 @@
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\bin\Debug\net6.0\Back End ER2.exe
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\bin\Debug\net6.0\Back End ER2.deps.json
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\bin\Debug\net6.0\Back End ER2.runtimeconfig.json
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\bin\Debug\net6.0\Back End ER2.dll
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\bin\Debug\net6.0\Back End ER2.pdb
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.csproj.AssemblyReference.cache
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.AssemblyInfoInputs.cache
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.AssemblyInfo.cs
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.csproj.CoreCompileInputs.cache
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.dll
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\refint\Back End ER2.dll
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.pdb
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\Back End ER2.genruntimeconfig.cache
+C:\Users\wesll\Documents\_WilliamC\SENAI\Codificação para Back-End\Back End ER2\obj\Debug\net6.0\ref\Back End ER2.dll
