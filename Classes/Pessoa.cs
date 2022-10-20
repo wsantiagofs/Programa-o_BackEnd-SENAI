@@ -1,4 +1,6 @@
 using Back_End_ER2.Interfaces;
+using Programacao_BackEnd_SENAI.Classes;
+
 namespace Back_End_ER2.Classes
 
 {
@@ -8,7 +10,7 @@ namespace Back_End_ER2.Classes
 
         public float rendimento { get; set; }
 
-        public string? endereco { get; set; }
+        public Endereco? endereco { get; set; }
 
         public abstract float CalcularImposto(float rendimento);
        

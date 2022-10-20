@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wesll\\Documents\\_WilliamC\\SENAI\\Codificação para Back-End\\Back End ER2\\Back End ER2.csproj": {}
+    "C:\\Users\\wesll\\eclipse-workspace\\teste.senai1.wsant\\Programacao_BackEnd-SENAI\\Back End ER2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wesll\\Documents\\_WilliamC\\SENAI\\Codificação para Back-End\\Back End ER2\\Back End ER2.csproj": {
+    "C:\\Users\\wesll\\eclipse-workspace\\teste.senai1.wsant\\Programacao_BackEnd-SENAI\\Back End ER2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesll\\Documents\\_WilliamC\\SENAI\\Codificação para Back-End\\Back End ER2\\Back End ER2.csproj",
+        "projectUniqueName": "C:\\Users\\wesll\\eclipse-workspace\\teste.senai1.wsant\\Programacao_BackEnd-SENAI\\Back End ER2.csproj",
         "projectName": "Back End ER2",
-        "projectPath": "C:\\Users\\wesll\\Documents\\_WilliamC\\SENAI\\Codificação para Back-End\\Back End ER2\\Back End ER2.csproj",
+        "projectPath": "C:\\Users\\wesll\\eclipse-workspace\\teste.senai1.wsant\\Programacao_BackEnd-SENAI\\Back End ER2.csproj",
         "packagesPath": "C:\\Users\\wesll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesll\\Documents\\_WilliamC\\SENAI\\Codificação para Back-End\\Back End ER2\\obj\\",
+        "outputPath": "C:\\Users\\wesll\\eclipse-workspace\\teste.senai1.wsant\\Programacao_BackEnd-SENAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wesll\\AppData\\Roaming\\NuGet\\NuGet.Config"
