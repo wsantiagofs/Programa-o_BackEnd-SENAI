@@ -1,10 +1,11 @@
 
+using System.Text.RegularExpressions;
 using Back_End_ER2.Interfaces;
 namespace Back_End_ER2.Classes
 {
     public class PessoaJuridica : Pessoa, IPessoaJuridica
     {
-        public string? cmpj { get; set; }
+        public string? cnpj { get; set; }
         public string? razaoSocial { get; set; }
 
         public override float CalcularImposto(float rendimento)
@@ -20,9 +21,30 @@ namespace Back_End_ER2.Classes
             } 
         }
 
-        public bool ValidarCnpj(string cnpj)
+        internal void ValidarCnpj()
         {
             throw new NotImplementedException();
+        }
+
+        public bool ValidarCnpj(string cnpj)
+        {  // 00.476.645/0001-03
+           bool retornoCnpjValido = Regex.IsMatch(cnpj, @"^(\d{14})|(\d{2}.\d{3}.\d{3}/\d{4}-\d{2})$");
+
+           if (retornoCnpjValido) {
+                string subStringCnpj14 = cnpj.Substring(8, 4);
+
+                if (subStringCnpj14 == "0001") {
+                    return true;
+                }
+           }
+           string subStringCnpj18 = cnpj.Substring (11, 4);
+
+                if (subStringCnpj18 == "0001") {
+                    return true;
+                }
+
+            return false;
+        
         }
     }
 }
