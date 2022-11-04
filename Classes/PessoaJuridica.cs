@@ -1,7 +1,10 @@
 
 using System.Text.RegularExpressions;
+using Back_End_ER2.Classes;
 using Back_End_ER2.Interfaces;
-namespace Back_End_ER2.Classes
+using Programacao_BackEnd_SENAI.Classes;
+
+namespace CadastroPessoaBET6.Classes
 {
     public class PessoaJuridica : Pessoa, IPessoaJuridica
     {
@@ -9,6 +12,8 @@ namespace Back_End_ER2.Classes
         public string? Cnpj { get; set; }
 
         public string? RazaoSocial { get; set; }
+
+        public string caminho { get; private set;} = "Database/PessoaJuridica.csv";
 
 
 
@@ -68,6 +73,37 @@ namespace Back_End_ER2.Classes
             }
 
             return false;
+
+        }
+
+        public void Inserir (PessoaJuridica pj) {
+            Utils.VerificarPastaArquivo(caminho);
+            string[] pjValores = {$"{pj.Nome},{pj.Cnpj},{pj.RazaoSocial}"};
+            File.AppendAllLines(caminho, pjValores);
+        }
+
+        public List<PessoaJuridica> LerArquivo(){
+            
+            List<PessoaJuridica> listPj = new List<PessoaJuridica>();
+            string[] linhas = File.ReadAllLines(caminho);
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+                //   0     1      2
+                // xxxx , wwww , zzzz
+            
+            PessoaJuridica CadaPj = new PessoaJuridica();
+
+            CadaPj.Nome = atributos[0];
+            CadaPj.Cnpj = atributos[1];
+            CadaPj.RazaoSocial = atributos[2];
+
+            listPj.Add(CadaPj);
+            
+            } 
+
+            return listPj;
 
         }
     }

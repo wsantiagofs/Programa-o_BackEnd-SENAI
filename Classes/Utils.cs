@@ -1,4 +1,4 @@
-namespace Programacao_BackEnd_SENAI.Classes
+namespace CadastroPessoaBET6.Classes
 {
     static class Utils
     {
@@ -16,6 +16,22 @@ namespace Programacao_BackEnd_SENAI.Classes
             }
 
             Console.ResetColor();
+        }
+
+        public static void VerificarPastaArquivo(string caminho)
+        {
+            string pasta = caminho.Split("/")[0];
+
+            if (!Directory.Exists(pasta))
+            {
+                Directory.CreateDirectory(pasta);
+            }
+
+            if (!File.Exists(caminho))
+            {
+                using (File.Create(caminho)) { }
+            }
+
         }
     }
 }
